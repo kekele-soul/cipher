@@ -14,4 +14,5 @@ func HashSha256(data []byte) []byte{
 	hashSha256 :=sha256.New()
 	hashSha256.Write(data)
 	return hashSha256.Sum(nil)
+	
 }
